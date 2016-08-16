@@ -1,0 +1,27 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.0",
+  "description": "Volume in drive D is Data\r  Volume Serial Number is E0D6-7AC7",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepeshks/react-skeleton.git"
+  },
+  "author": "Deepesh Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deepeshks/react-skeleton/issues"
+  },
+  "homepage": "https://github.com/Deepeshks/react-skeleton#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "watchify": "^3.7.0"
+  }
+}
